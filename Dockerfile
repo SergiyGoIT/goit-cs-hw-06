@@ -11,3 +11,4 @@ EXPOSE 3000
 EXPOSE 5000
 
 CMD ["python", "main.py"]
+
