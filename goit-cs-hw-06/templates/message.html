@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Надіслати повідомлення</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Форма повідомлення</h1>
+    <form action="/message" method="post">
+        <label for="username">Ім’я:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="message">Повідомлення:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        <button type="submit">Надіслати</button>
+    </form>
+    <p><a href="/">← На головну</a></p>
+</body>
+</html>
