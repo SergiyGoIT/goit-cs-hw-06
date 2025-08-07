@@ -3,7 +3,7 @@ import os
 from datetime import datetime
 from urllib.parse import unquote_plus
 
-HOST = '127.0.0.1'
+HOST = '0.0.0.0'
 PORT = 3000
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_DIR = os.path.join(BASE_DIR, 'static')
